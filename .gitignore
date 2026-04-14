@@ -1,5 +1,19 @@
+# ─── Common ───────────────────────────────────────────────────────────────────
+.env
+*.png
+output/
+
+# ─── playwright-ts ────────────────────────────────────────────────────────────
+playwright-ts/node_modules/
+playwright-ts/dist/
+playwright-ts/output/
+
+# ─── playwright-py ────────────────────────────────────────────────────────────
+playwright-py/__pycache__/
+playwright-py/src/__pycache__/
+playwright-py/.venv/
+playwright-py/output/
+
+# ─── Legacy root (kept for backwards-compat if src/ still used directly) ─────
 node_modules/
 dist/
-output/
-*.png
-.env

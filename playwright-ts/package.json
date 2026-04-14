@@ -1,0 +1,23 @@
+{
+  "name": "digikey-scraper",
+  "version": "1.0.0",
+  "description": "TypeScript web scraper for DigiKey product tables using Playwright",
+  "main": "dist/scraper.js",
+  "scripts": {
+    "build": "tsc",
+    "diagnose": "ts-node src/diagnose.ts",
+    "scrape": "ts-node src/scraper.ts",
+    "scrape:headless": "SCRAPER_HEADLESS=true ts-node src/scraper.ts",
+    "scrape:debug": "SCRAPER_DEBUG=true ts-node src/scraper.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.1",
+    "playwright": "^1.44.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
