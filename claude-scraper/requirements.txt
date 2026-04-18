@@ -1,0 +1,6 @@
+playwright>=1.49.0
+rich>=13.9.0
+questionary>=2.0.1
+python-dotenv>=1.0.0
+fpdf2>=2.8.1
+beautifulsoup4>=4.12.0
